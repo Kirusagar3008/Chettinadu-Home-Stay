@@ -69,7 +69,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 #hero {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://github.com/Kirusagar3008/Chettinadu-Home-Stay/blob/main/0317afba-201c-4b3b-a8f6-f3e948606780.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://raw.githubusercontent.com/Kirusagar3008/Chettinadu-Home-Stay/main/0317afba-201c-4b3b-a8f6-f3e948606780.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -554,4 +554,5 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
 
