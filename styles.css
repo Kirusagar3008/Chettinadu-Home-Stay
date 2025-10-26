@@ -69,7 +69,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 #hero {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://raw.githubusercontent.com/Kirusagar3008/Chettinadu-Home-Stay/main/0317afba-201c-4b3b-a8f6-f3e948606780.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://cf.bstatic.com/xdata/images/hotel/max1024x768/757735404.jpg?k=74ed5bc4b34928676e70651820f04b88bd3deca12a7503aa45f94f6265646754&o=');
     background-size: cover;
     background-position: center;
     color: white;
@@ -554,5 +554,6 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
 
 
