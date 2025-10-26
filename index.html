@@ -315,7 +315,7 @@
                     <div class="form-row">
                         <div class="form-group full-width">
                             <label for="contact">Contact Number:</label>
-                            <input type="tel" id="contact" name="contact" placeholder="Enter your phone number (e.g., +91 1234567890)" required>
+                            <input type="tel" id="contact-number" name="contact" placeholder="Enter your phone number (e.g., +91 1234567890)" required>
                         </div>
                     </div>
                     <button type="button" class="submit-btn" onclick="submitForm()">Submit Booking</button>
@@ -349,7 +349,7 @@
             const checkinTime = document.getElementById('checkin-time').value;
             const checkoutDate = document.getElementById('checkout-date').value;
             const checkoutTime = document.getElementById('checkout-time').value;
-            const contact = document.getElementById('contact').value;
+            const contact = document.getElementById('contact-number').value;
 
             if (!name || !age || !guests || !rooms || !checkinDate || !checkinTime || !checkoutDate || !checkoutTime || !contact) {
                 alert('Please fill all fields.');
@@ -368,3 +368,4 @@
     </script>
 </body>
 </html>
+
