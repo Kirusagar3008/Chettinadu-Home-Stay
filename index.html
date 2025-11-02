@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chettinadu Home Stay - Authentic Chettinad Experience in Chidambaram</title>
+    <title>CHETTINAD HomeStay - Symbol of Hospitality</title>
     <meta name="description" content="Experience premium stay and traditional Chettinad cuisine at Chettinadu Home Stay in Chidambaram. Authentic homestay near Nataraja Temple with cultural tours and home-cooked meals.">
     <meta name="keywords" content="chettinadu home stay, chettinad homestay, home stay in chidambaram, homestay in karaikudi, chettinad homestay chidambaram, authentic chettinad experience, traditional chettinad cuisine, homestay near nataraja temple, chettinad cultural tours, chettinad cooking classes, homestay tamil nadu, chidambaram accommodation, chettinad heritage stay">
     <meta name="author" content="Chettinadu Home Stay">
@@ -53,21 +53,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
     <header>
         <nav>
             <div class="container">
                 <div class="brand">
-                    <svg class="logo" width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="50" height="50" rx="10" fill="#8B4513"/>
-                        <path d="M15 20 L25 10 L35 20 L35 35 L15 35 Z" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"/>
-                        <text x="25" y="30" font-family="serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">CH</text>
-                    </svg>
-                    <h1>Chettinadu Home Stay</h1>
+                    <div class="logo-title">
+                        <img src="https://raw.githubusercontent.com/Kirusagar3008/Chettinadu-Home-Stay/main/f22bdf55-fbb4-4ab6-9860-c7afc1685fad.jpg" alt="CHETTINAD HomeStay Logo" class="logo">
+                        <div class="title-text">
+                            <h1>CHETTINAD HomeStay</h1>
+                            <p class="tagline">Symbol of Hospitality</p>
+                        </div>
+                    </div>
                 </div>
-                <ul>
+                <ul class="nav-menu">
                     <li><a href="#about">About</a></li>
                     <li><a href="#pricing">Pricing</a></li>
                     <li><a href="#offers">Offers</a></li>
@@ -78,8 +79,14 @@
                     <li><a href="#faq">FAQ</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#host">Host</a></li>
+                    <li class="book-now"><a href="#booking">Book Now</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </div>
         </nav>
     </header>
@@ -87,9 +94,10 @@
         <div class="container">
             <h2>Welcome to Authentic Chettinadu Experience</h2>
             <p>Experience premium stay and traditional cuisine in Chidambaram.</p>
-            <a href="https://www.booking.com/Share-IQFiY9" target="_blank" class="btn">Book Now</a>
+            <a href="#booking" class="btn">Book Now</a>
         </div>
     </section>
+
     <section id="about">
         <div class="container">
         <h2>About Us</h2>
@@ -221,11 +229,8 @@
                         <li>Toilet Paper</li>
                         <li>Towels</li>
                         <li>Bidet</li>
-                        <li>Private Bathroom</li>
                         <li>Toilet</li>
                         <li>Free Toiletries</li>
-                        <li>Bath</li>
-                        <li>Shower</li>
                         <li>Bedroom</li>
                         <li>Wardrobe or Closet</li>
                     </ul>
@@ -349,7 +354,7 @@
         <div class="container">
             <h2>Location & Map</h2>
             <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.768!2d79.6954!3d11.3994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54b8c8c8c8c8c%3A0x8c8c8c8c8c8c8c8c!2sBalambigai%20Illam%2C%20Chidambaram!5e0!3m2!1sen!2sin!4v1690000000000!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://maps.google.com/maps?q=CHETTINAD%20HomeStay%20Balambigai%20Illam,%2030/24,%202nd%20Cross%20Rd,%20Gandhi%20Nagar,%20Chidambaram,%20Tamil%20Nadu%20608001&z=15&output=embed" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="location-info">
                 <div class="address">
@@ -423,36 +428,36 @@
             <h2>Frequently Asked Questions</h2>
             <div class="faq-grid">
                 <div class="faq-item">
-                    <h3>What is the check-in and check-out time?</h3>
-                    <p>Check-in time is from 12:00 PM onwards. Check-out time is 11:00 AM. Early check-in or late check-out can be arranged based on availability.</p>
+                    <h3 class="faq-question">What is the check-in and check-out time? <span class="faq-toggle">+</span></h3>
+                    <p class="faq-answer">Check-in time is from 12:00 PM onwards. Check-out time is 11:00 AM. Early check-in or late check-out can be arranged based on availability.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>Is breakfast included in the room rate?</h3>
-                    <p>Yes, a traditional vegetarian breakfast is included in all room rates. We can also accommodate special dietary requirements with prior notice.</p>
+                    <h3 class="faq-question">Is breakfast included in the room rate? <span class="faq-toggle">+</span></h3>
+                    <p class="faq-answer">Yes, a traditional vegetarian breakfast is included in all room rates. We can also accommodate special dietary requirements with prior notice.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>Do you provide airport pickup?</h3>
-                    <p>We can arrange airport pickup from Pondicherry Airport (67 km) for an additional charge. Please contact us in advance to arrange transportation.</p>
+                    <h3 class="faq-question">Do you provide airport pickup? <span class="faq-toggle">+</span></h3>
+                    <p class="faq-answer">We can arrange airport pickup from Pondicherry Airport (67 km) for an additional charge. Please contact us in advance to arrange transportation.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>Are pets allowed?</h3>
-                    <p>Unfortunately, we do not allow pets at our homestay to maintain a comfortable environment for all guests.</p>
+                    <h3 class="faq-question">Are pets allowed? <span class="faq-toggle">+</span></h3>
+                    <p class="faq-answer">Unfortunately, we do not allow pets at our homestay to maintain a comfortable environment for all guests.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>What languages do you speak?</h3>
-                    <p>Our staff speaks English and Tamil. We can also arrange for local guides who speak other languages if needed.</p>
+                    <h3 class="faq-question">What languages do you speak? <span class="faq-toggle">+</span></h3>
+                    <p class="faq-answer">Our staff speaks English and Tamil. We can also arrange for local guides who speak other languages if needed.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>Is there parking available?</h3>
-                    <p>Yes, free on-site parking is available for all guests. No reservation is required.</p>
+                    <h3 class="faq-question">Is there parking available? <span class="faq-toggle">+</span></h3>
+                    <p class="faq-answer">Yes, free on-site parking is available for all guests. No reservation is required.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>Can I cancel or modify my booking?</h3>
-                    <p>You can cancel or modify your booking up to 48 hours before check-in for a full refund. Please contact us directly for cancellations.</p>
+                    <h3 class="faq-question">Can I cancel or modify my booking? <span class="faq-toggle">+</span></h3>
+                    <p class="faq-answer">You can cancel or modify your booking up to 48 hours before check-in for a full refund. Please contact us directly for cancellations.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>Do you offer cooking classes?</h3>
-                    <p>Yes, we offer traditional Chettinad cooking classes as part of our cultural packages. These can be arranged for individuals or groups.</p>
+                    <h3 class="faq-question">Do you offer cooking classes? <span class="faq-toggle">+</span></h3>
+                    <p class="faq-answer">Yes, we offer traditional Chettinad cooking classes as part of our cultural packages. These can be arranged for individuals or groups.</p>
                 </div>
             </div>
         </div>
@@ -488,62 +493,52 @@
             </div>
         </div>
     </section>
+    <section id="booking">
+        <div class="container">
+            <h2>Book Your Stay</h2>
+            <p>Choose your preferred booking method for a seamless and personalized experience.</p>
+            <div class="tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" onclick="bookingOpenTab('booking-com')">Booking.com</button>
+                    <button class="tab-btn" onclick="bookingOpenTab('agoda')">Agoda</button>
+                    <button class="tab-btn" onclick="bookingOpenTab('makemytrip')">MakeMyTrip</button>
+                    <button class="tab-btn" onclick="bookingOpenTab('direct')">Direct Booking</button>
+                </div>
+            </div>
+            <div class="tab-content active" id="booking-com">
+                <i class="fas fa-globe"></i>
+                <h3>Booking.com</h3>
+                <p>Instant confirmation with user reviews and ratings.</p>
+                <a href="https://www.booking.com/hotel/in/chettinad-homestay.html" target="_blank" class="btn">Book on Booking.com</a>
+            </div>
+            <div class="tab-content" id="agoda">
+                <i class="fas fa-plane"></i>
+                <h3>Agoda</h3>
+                <p>Competitive rates with flexible cancellation options.</p>
+                <a href="https://www.agoda.com/en-in/chettinad-homestay/hotel/chidambaram-in.html?cid=1844104&ds=y0258lqvJg92v%2FkR" target="_blank" class="btn">Book on Agoda</a>
+            </div>
+            <div class="tab-content" id="makemytrip">
+                <i class="fas fa-suitcase"></i>
+                <h3>MakeMyTrip</h3>
+                <p>Comprehensive travel planning with exclusive deals.</p>
+                <a href="https://www.makemytrip.com/hotels/chettinad_homestay-details-chidambaram.html" target="_blank" class="btn">Book on MakeMyTrip</a>
+            </div>
+            <div class="tab-content" id="direct">
+                <div id="direct-intro">
+                    <i class="fas fa-star"></i>
+                    <h3>Direct Booking</h3>
+                    <p>Personalized service with a special 10% discount.</p>
+                    <button class="btn" onclick="showDirectForm()">Book Direct</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section id="contact">
         <div class="container">
             <h2>Contact Us</h2>
-            <p>For direct bookings, use the registration form below. Contact us via WhatsApp or email for inquiries.</p>
-            <div class="booking-form">
-                <h3>Registration Form</h3>
-                <form id="booking-form">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="age">Age:</label>
-                            <input type="number" id="age" name="age" placeholder="Enter your age" min="1" required>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="guests">Number of guests:</label>
-                            <input type="number" id="guests" name="guests" placeholder="Enter number of guests" min="1" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="rooms">Number of Rooms:</label>
-                            <input type="number" id="rooms" name="rooms" placeholder="Enter number of rooms" min="1" required>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="checkin-date">Check in date:</label>
-                            <input type="date" id="checkin-date" name="checkin-date" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="checkin-time">Check in time:</label>
-                            <input type="time" id="checkin-time" name="checkin-time" placeholder="Select check-in time" required>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="checkout-date">Check out date:</label>
-                            <input type="date" id="checkout-date" name="checkout-date" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="checkout-time">Check out time:</label>
-                            <input type="time" id="checkout-time" name="checkout-time" placeholder="Select check-out time" required>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group full-width">
-                            <label for="contact">Contact Number:</label>
-                            <input type="tel" id="contact" name="contact" placeholder="Enter your phone number (e.g., +91 1234567890)" required>
-                        </div>
-                    </div>
-                    <button type="button" class="submit-btn" onclick="submitForm()">Submit Booking</button>
-                </form>
-            </div>
+            <p>Contact us via WhatsApp or email for inquiries.</p>
             <div class="contact-details">
                 <a href="https://wa.me/919443306339" target="_blank" class="contact-link">
                     <i class="fab fa-whatsapp"></i> +91 94433 06339
@@ -586,7 +581,114 @@
             <p>&copy; 2024 Chettinadu Home Stay. All rights reserved.</p>
         </div>
     </footer>
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="#booking" class="floating-btn book-now-btn" title="Book Now">
+            <i class="fas fa-calendar-check"></i>
+        </a>
+        <a href="https://wa.me/919443306339" target="_blank" class="floating-btn whatsapp-btn" title="Contact via WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+919443306339" class="floating-btn call-btn" title="Call Us">
+            <i class="fas fa-phone"></i>
+        </a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=CHETTINAD%20HomeStay%20Balambigai%20Illam%2C%2030%2F24%2C%202nd%20Cross%20Rd%2C%20Gandhi%20Nagar%2C%20Chidambaram%2C%20Tamil%20Nadu%20608001" target="_blank" class="floating-btn map-btn" title="Get Directions">
+            <i class="fas fa-map-marker-alt"></i>
+        </a>
+    </div>
+
+    <!-- Side Banner -->
+    <div id="side-banner" class="side-banner">
+        <button id="side-banner-close" class="side-banner-close">&times;</button>
+        <div class="side-banner-content">
+            <h3>Special Offer!</h3>
+            <p>Book now and get 10% off on your stay.</p>
+            <button id="side-banner-book-now" class="btn">Book Now</button>
+        </div>
+    </div>
+
+    <!-- Direct Booking Modal -->
+    <div id="direct-booking-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeDirectModal()">&times;</span>
+            <h2>Direct Booking Form</h2>
+            <p>Personalized service with a special 10% discount.</p>
+            <form id="direct-booking-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="direct-name">Full Name:</label>
+                        <input type="text" id="direct-name" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="direct-age">Age:</label>
+                        <input type="number" id="direct-age" name="age" placeholder="Enter your age" min="1" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="direct-guests">Number of Guests:</label>
+                        <input type="number" id="direct-guests" name="guests" placeholder="Enter number of guests" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="direct-rooms">Number of Rooms:</label>
+                        <input type="number" id="direct-rooms" name="rooms" placeholder="Enter number of rooms" min="1" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="direct-checkin-date">Check-in Date:</label>
+                        <input type="date" id="direct-checkin-date" name="checkin-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="direct-checkin-time">Check-in Time:</label>
+                        <input type="time" id="direct-checkin-time" name="checkin-time" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="direct-checkout-date">Check-out Date:</label>
+                        <input type="date" id="direct-checkout-date" name="checkout-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="direct-checkout-time">Check-out Time:</label>
+                        <input type="time" id="direct-checkout-time" name="checkout-time" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group full-width">
+                        <label for="direct-contact">Contact Number:</label>
+                        <input type="tel" id="direct-contact" name="contact" placeholder="e.g., +91 1234567890" required>
+                    </div>
+                </div>
+                <button type="button" class="submit-btn" onclick="submitDirectForm()">Submit Booking Request</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
     <script>
+        // Hamburger menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a nav link
+        document.querySelectorAll('.nav-menu li a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
         // Smooth scrolling for navigation links
         document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -601,31 +703,7 @@
             });
         });
 
-        function submitForm() {
-            const name = document.getElementById('name').value;
-            const age = document.getElementById('age').value;
-            const guests = document.getElementById('guests').value;
-            const rooms = document.getElementById('rooms').value;
-            const checkinDate = document.getElementById('checkin-date').value;
-            const checkinTime = document.getElementById('checkin-time').value;
-            const checkoutDate = document.getElementById('checkout-date').value;
-            const checkoutTime = document.getElementById('checkout-time').value;
-            const contact = document.getElementById('contact').value;
 
-            if (!name || !age || !guests || !rooms || !checkinDate || !checkinTime || !checkoutDate || !checkoutTime || !contact) {
-                alert('Please fill all fields.');
-                return;
-            }
-
-            const message = `New Booking Request:\nName: ${name}\nAge: ${age}\nNumber of Guests: ${guests}\nNumber of Rooms: ${rooms}\nCheck-in: ${checkinDate} at ${checkinTime}\nCheck-out: ${checkoutDate} at ${checkoutTime}\nContact: ${contact}`;
-
-            const whatsappUrl = `https://wa.me/919443306339?text=${encodeURIComponent(message)}`;
-            window.open(whatsappUrl, '_blank');
-
-            // Clear form
-            document.getElementById('booking-form').reset();
-            alert('Booking request sent to WhatsApp!');
-        }
 
         // Newsletter form submission
         document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
@@ -645,7 +723,6 @@
         lightbox.id = 'lightbox';
         lightbox.innerHTML = `
             <div class="lightbox-content">
-                <span class="close">&times;</span>
                 <img src="" alt="">
                 <p></p>
             </div>
@@ -662,28 +739,155 @@
             });
         });
 
-        lightbox.querySelector('.close').addEventListener('click', function() {
-            lightbox.style.display = 'none';
-        });
-
         lightbox.addEventListener('click', function(e) {
             if (e.target === lightbox) {
                 lightbox.style.display = 'none';
             }
         });
 
-        // FAQ accordion
-        const faqItems = document.querySelectorAll('.faq-item');
-        faqItems.forEach(item => {
-            const question = item.querySelector('h3');
-            const answer = item.querySelector('p');
-            answer.style.display = 'none';
-            question.style.cursor = 'pointer';
-            question.addEventListener('click', function() {
-                const isVisible = answer.style.display === 'block';
-                answer.style.display = isVisible ? 'none' : 'block';
+
+
+        // Direct booking modal functions
+        function showDirectForm() {
+            document.getElementById('direct-booking-modal').style.display = 'block';
+        }
+
+        function closeDirectModal() {
+            document.getElementById('direct-booking-modal').style.display = 'none';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('direct-booking-modal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+
+        function submitDirectForm() {
+            const name = document.getElementById('direct-name').value;
+            const age = document.getElementById('direct-age').value;
+            const guests = document.getElementById('direct-guests').value;
+            const rooms = document.getElementById('direct-rooms').value;
+            const checkinDate = document.getElementById('direct-checkin-date').value;
+            const checkinTime = document.getElementById('direct-checkin-time').value;
+            const checkoutDate = document.getElementById('direct-checkout-date').value;
+            const checkoutTime = document.getElementById('direct-checkout-time').value;
+            const contact = document.getElementById('direct-contact').value;
+
+            if (!name || !age || !guests || !rooms || !checkinDate || !checkinTime || !checkoutDate || !checkoutTime || !contact) {
+                alert('Please fill all fields.');
+                return;
+            }
+
+            const message = `New Direct Booking Request:\nName: ${name}\nAge: ${age}\nNumber of Guests: ${guests}\nNumber of Rooms: ${rooms}\nCheck-in: ${checkinDate} at ${checkinTime}\nCheck-out: ${checkoutDate} at ${checkoutTime}\nContact: ${contact}`;
+
+            const whatsappUrl = `https://wa.me/919443306339?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+
+            // Clear form
+            document.getElementById('direct-booking-form').reset();
+            alert('Direct booking request sent to WhatsApp!');
+        }
+
+
+
+        // Tab functionality for booking section
+        let currentTabIndex = 0;
+        const tabContents = document.querySelectorAll('.tab-content');
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        const tabsContainer = document.querySelector('.tabs');
+
+        function bookingOpenTab(tabId) {
+            tabContents.forEach(content => content.classList.remove('active'));
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            document.querySelector(`[onclick="bookingOpenTab('${tabId}')"]`).classList.add('active');
+            currentTabIndex = Array.from(tabButtons).findIndex(btn => btn.getAttribute('onclick').includes(tabId));
+        }
+
+        // Swipe functionality for mobile
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        tabsContainer.addEventListener('touchstart', function(e) {
+            touchStartX = e.changedTouches[0].screenX;
+        });
+
+        tabsContainer.addEventListener('touchend', function(e) {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            const swipeThreshold = 50; // Minimum distance for swipe
+            const swipeDistance = touchStartX - touchEndX;
+
+            if (Math.abs(swipeDistance) > swipeThreshold) {
+                if (swipeDistance > 0) {
+                    // Swipe left - next tab
+                    currentTabIndex = (currentTabIndex + 1) % tabButtons.length;
+                } else {
+                    // Swipe right - previous tab
+                    currentTabIndex = (currentTabIndex - 1 + tabButtons.length) % tabButtons.length;
+                }
+                const tabId = tabButtons[currentTabIndex].getAttribute('onclick').match(/'([^']+)'/)[1];
+                bookingOpenTab(tabId);
+            }
+        }
+
+        // FAQ Toggle Functionality
+        const faqQuestions = document.querySelectorAll('.faq-question');
+
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.parentElement;
+                faqItem.classList.toggle('active');
             });
         });
+
+        // Side Banner Functionality
+        const sideBanner = document.getElementById('side-banner');
+        const sideBannerClose = document.getElementById('side-banner-close');
+        const sideBannerBookNow = document.getElementById('side-banner-book-now');
+
+        // Show side banner after 5 seconds
+        setTimeout(() => {
+            sideBanner.classList.add('show');
+        }, 5000);
+
+        // Close side banner
+        sideBannerClose.addEventListener('click', () => {
+            sideBanner.classList.remove('show');
+        });
+
+        // Side banner book now button
+        sideBannerBookNow.addEventListener('click', () => {
+            document.querySelector('#booking').scrollIntoView({ behavior: 'smooth' });
+            bookingOpenTab('direct');
+            sideBanner.classList.remove('show');
+        });
+
+        // Hero background slideshow
+        const heroSection = document.getElementById('hero');
+        const galleryImages = [
+            'https://cf.bstatic.com/xdata/images/hotel/max1024x768/757735622.jpg?k=da4e1aa856273f9164c226e935540c4b1b47b4f56cd8eb23238edc5abea2f45e&o=',
+            'https://cf.bstatic.com/xdata/images/hotel/max1024x768/757890494.jpg?k=9fcf018a592e2d2ad07d15bd98b68f567ecd9f5d4fc7fb88abe9b54e72d3883f&o=',
+            'https://cf.bstatic.com/xdata/images/hotel/max1024x768/757735592.jpg?k=435b6c6ce69bdb063d45e49d25c155d8584d0f0645fcec0c7b26ee1f6a2c2c9a&o=',
+            'https://cf.bstatic.com/xdata/images/hotel/max1024x768/757735451.jpg?k=b096c30cafc0077c23fa4c28f1e33be56999f277970c3461a4a80a0bf5ee8793&o='
+        ];
+
+        let currentImageIndex = 0;
+
+        function changeHeroBackground() {
+            heroSection.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${galleryImages[currentImageIndex]}')`;
+            currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
+        }
+
+        // Start slideshow
+        changeHeroBackground(); // Set initial background
+        setInterval(changeHeroBackground, 5000); // Change every 5 seconds
+
     </script>
 </body>
 </html>
