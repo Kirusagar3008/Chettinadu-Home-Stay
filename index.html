@@ -859,7 +859,7 @@
         <a href="#booking" class="floating-btn book-now-btn" title="Book Now">
             <i class="fas fa-calendar-check"></i>
         </a>
-        <a href="https://wa.me/919443306339" target="_blank" class="floating-btn whatsapp-btn" title="Contact via WhatsApp">
+        <a href="https://wa.me/919443306339" target="_blank" class="floating-btn whatsapp-btn" title="Contact via WhatsApp" onclick="closeDirectModal()">
             <i class="fab fa-whatsapp"></i>
         </a>
         <a href="tel:+919443306339" class="floating-btn call-btn" title="Call Us">
@@ -1023,10 +1023,12 @@
         // Direct booking modal functions
         function showDirectForm() {
             document.getElementById('direct-booking-modal').style.display = 'block';
+            document.querySelector('.floating-buttons').style.display = 'none';
         }
 
         function closeDirectModal() {
             document.getElementById('direct-booking-modal').style.display = 'none';
+            document.querySelector('.floating-buttons').style.display = 'flex';
         }
 
         // Close modal when clicking outside
@@ -1061,6 +1063,9 @@
             // Clear form
             document.getElementById('direct-booking-form').reset();
             alert('Direct booking request sent to WhatsApp!');
+
+            // Close the modal
+            closeDirectModal();
         }
 
 
